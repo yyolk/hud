@@ -32,5 +32,5 @@ function scrollBottom(){
   window.scrollTo(0, document.body.scrollHeight);
 }
 
-setInterval("showGarbage()", 100);
-setInterval("scrollBottom()", 150);
+setInterval("showGarbage()", 10);
+setInterval("scrollBottom()", 15);
