@@ -64,6 +64,8 @@ body {
   color: #333333;
   font-size: 75%;
   padding: 50px;
+  background-color: black;
+  color: white;
 }
 /* line 51, ../../../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body h1, body h2, body h3, body h4, body h5, body h6 {
@@ -378,17 +380,49 @@ body .removed {
   color: white;
 }
 
-/* line 26, ../../sass/screen.sass */
+/* line 28, ../../sass/screen.sass */
 a {
   color: #00b7ff;
 }
 
-/* line 29, ../../sass/screen.sass */
+/* line 31, ../../sass/screen.sass */
+span.one {
+  color: red;
+}
+
+/* line 34, ../../sass/screen.sass */
+span.two {
+  color: #5dec28;
+}
+
+/* line 37, ../../sass/screen.sass */
+span.three {
+  color: white;
+}
+
+/* line 40, ../../sass/screen.sass */
+span.four {
+  color: #54eff0;
+}
+
+/* line 43, ../../sass/screen.sass */
+span.five {
+  color: #e94ff5;
+}
+
+/* line 45, ../../sass/screen.sass */
+span.six {
+  color: #f2ee2d;
+}
+
+/* line 48, ../../sass/screen.sass */
 #miniwindow {
   background-color: black;
   width: 100%;
   height: 99%;
   color: white;
+  font-family: monospace;
+  font-size: 12px;
 }
 
 /* line 18, ../../../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
@@ -506,14 +540,14 @@ form.bp form.inline p {
   margin-bottom: 0;
 }
 
-/* line 42, ../../sass/screen.sass */
+/* line 63, ../../sass/screen.sass */
 body.two-col #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 44, ../../sass/screen.sass */
+/* line 65, ../../sass/screen.sass */
 body.two-col #header, body.two-col #footer {
   display: inline;
   float: left;
@@ -524,7 +558,7 @@ body.two-col #header, body.two-col #footer {
 * html body.two-col #header, * html body.two-col #footer {
   overflow-x: hidden;
 }
-/* line 46, ../../sass/screen.sass */
+/* line 67, ../../sass/screen.sass */
 body.two-col #sidebar {
   display: inline;
   float: left;
@@ -535,7 +569,7 @@ body.two-col #sidebar {
 * html body.two-col #sidebar {
   overflow-x: hidden;
 }
-/* line 50, ../../sass/screen.sass */
+/* line 71, ../../sass/screen.sass */
 body.two-col #content {
   display: inline;
   float: left;
