@@ -1,0 +1,19 @@
+{
+  "name": "hud",
+  "version": "0.0.1-1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "~3.0.2",
+    "jade": "~0.27.7"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "subdomain": "yolk.hud",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
